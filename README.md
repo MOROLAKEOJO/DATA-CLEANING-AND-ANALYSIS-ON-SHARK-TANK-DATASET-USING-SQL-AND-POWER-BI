@@ -1,14 +1,18 @@
 # DATA CLEANING AND ANALYSIS ON SHARK TANK DATASET USING SQL AND POWER BI
  
 Project Title: ENHANCING INVESTMENT DECISION MAKING ON SHARK TANK WITH SQL and Power BI
+
 "Shark Tank" is a reality television show that originated in the United States and has been adapted in various countries worldwide. The show features entrepreneurs (PICHERS) who pitch their business ideas or products to a panel of wealthy investors, often referred to as "SHARKS." The entrepreneurs seek investment from the sharks in exchange for equity in their businesses. "Shark Tank" showcases a mix of success stories and failures. Some entrepreneurs’ secure lucrative deals and go on to build successful businesses, while others leave empty-handed.
 In this project, my objective is to optimize the decision-making process on shark tank by leveraging the use of SQL for data management and POWER BI for interactive visualizations.
 The goal was to streamline the analysis of entrepreneurs’ pitches, track investment trend and provide actionable insights to the panel of investors “sharks”
+
 Tools used; SQL, POWER BI
-Utilized SQL for data extraction, transformation, and loading (ETL) processes.
+
+Utilized SQL for data extraction, transformation (alteration and modifification of rows) , and loading (ETL) processes.
 Conducted queries to aggregate and organize data related to entrepreneur pitches, deals made and investor interactions.
 Employed Power BI for creating visually appealing and interactive dashboards and reports.
 Developed data models within Power BI to establish relationships between datasets such as entrepreneur profiles, pitch details and investment outcomes.
+
 Key Steps:
 Data Extraction and Transformation using SQL queries.
 Data Modeling within Power BI
