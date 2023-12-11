@@ -177,4 +177,23 @@ from `data`
 group by `pitchers gender`;
 
 -- 20. Are there any correlations between the amount of equity offered and the probability of securing a deal?
-select 
+
+-- Total investment on food and beverages
+create view `Total investment on food and beverages` as
+select "ROBERT HERJAVEC" AS NAME, max(`ROBERT HERJAVEC INVESTMENT AMOUNT`) max  from `data`
+where industry = "food and beverage"
+union
+SELECT "BARBARA CORCORAN" AS NAME, max(`BARBARA CORCORAN INVESTMENT AMOUNT`) max from `data`
+where industry = "food and beverage"
+union
+SELECT "MARK CUBAN" AS NAME,max(`MARK CUBAN INVESTMENT AMOUNT`) Max from `data`
+where industry = "food and beverage"
+union
+SELECT "LORI GREINER" AS NAME,max(`LORI GREINER INVESTMENT AMOUNT`) mX from `data`
+where industry = "food and beverage"
+union
+SELECT "DAYMOND JOHN" AS NAME,SUM(`DAYMOND JOHN INVESTMENT AMOUNT`) max from `data`
+where industry = "food and beverage"
+union
+SELECT "Kevin O Leary" AS NAME, SUM(`Kevin O Leary Investment AMOUNT`) max from `data`
+where industry = "food and beverage";
